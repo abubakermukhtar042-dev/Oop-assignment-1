@@ -100,7 +100,11 @@ int main()
 	s1.CalculateGpa();
 	Student s2("Abubakar", "L1F24BSSC0023", 19, 3.53);
 	s2.display();
-	s2.CalculateGpa();
+	s2.CalculateGpa(); 
+	Student s3("chatur", "L1f");
+	s3.display();
+	s3.CalculateGpa();
 
+	system("pause");
 	return 0;
 }
